@@ -3,25 +3,27 @@ import Slider from "react-slick";
 import { Box, Typography, Avatar, Card, CardContent } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Ellipse23 from "../assets/Ellipse 24.png";
+import Ellipse24 from "../assets/Ellipse 23.png";
 
 const testimonials = [
     {
         name: "Alex Martin",
         position: "Company, HR",
         text: "Recruito has transformed our hiring process! We save countless hours each week. The quality of candidates has ",
-        avatar: "https://via.placeholder.com/100", // Replace with the actual image URL
+        avatar: Ellipse23, // Replace with the actual image URL
     },
     {
         name: "John Doe",
         position: "Company, Recruiter",
         text: "Recruito has been a game-changer for our team. It's user-friendly, efficient, and helps us find the best talent quickly!",
-        avatar: "https://via.placeholder.com/100", // Replace with the actual image URL
+        avatar: Ellipse24, // Replace with the actual image URL
     },
     {
         name: "Jane Smith",
         position: "Company, Manager",
         text: "Since using Recruito, we've noticed a significant improvement in the quality of our hires. Highly recommend!",
-        avatar: "https://via.placeholder.com/100", // Replace with the actual image URL
+        avatar: Ellipse23, // Replace with the actual image URL
     },
 ];
 
