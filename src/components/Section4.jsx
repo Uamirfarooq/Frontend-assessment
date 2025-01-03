@@ -1,35 +1,50 @@
 import React from "react";
+import docker from "../assets/docker-pattern-right 4.png";
+import Gabrun from "../assets/Gabrun-Minutes-BG 1.png";
+import Group10 from "../assets/Group 10.png";
+import Group9 from "../assets/Group 9.png";
+import Group8 from "../assets/Group 8.png";
+import Group18 from "../assets/Group 18.png";
+import Group17 from "../assets/Group 17.png";
+import Group16 from "../assets/Group 16.png";
+import Group15 from "../assets/Group 15.png";
+import Group13 from "../assets/Group 13.png";
+import Group12 from "../assets/Group 12.png";
+import Group11 from "../assets/Group 11.png";
+import solar from "../assets/solar_magnifer-outline.png";
+import image from "../assets/image.png";
+
 
 const Section4 = () => {
     return (
         <div className="w-[100vw] py-6 flex items-center justify-center relative">
             <img
-                src="../public/docker-pattern-right 4.png"
+                src={docker}
                 alt="Background Pattern"
                 className="w-[350px] h-[350px] rotate-180 absolute  top-32 right-0  opacity-90 hidden lg:block"
             />
             <img
-                src="../public/docker-pattern-right 4.png"
+                src={docker}
                 alt="Background Pattern"
                 className="w-[350px] h-[350px] rotate-180 absolute top-[1000px] right-0  opacity-90 hidden lg:block"
             />
             <img
-                src="../public/docker-pattern-right 4.png"
+                src={docker}
                 alt="Background Pattern"
                 className="w-[350px] h-[350px] rotate-180 absolute -bottom-20 right-0  opacity-90 hidden lg:block"
             />
             <img
-                src="../public/docker-pattern-right 4.png"
+                src={docker}
                 alt="Background Pattern"
                 className="w-[400px] h-[400px]  absolute top-[600px] -left-10  opacity-90 hidden lg:block"
             />
             <img
-                src="../public/docker-pattern-right 4.png"
+                src={docker}
                 alt="Background Pattern"
                 className="w-[400px] h-[400px] absolute top-[1400px] -left-10  opacity-90 hidden lg:block"
             />
 
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 px-2 md:px-44">
                 {/* Box 1 */}
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px] flex flex-col justify-center  text-center lg:pr-32 xl:pr-0">
@@ -44,22 +59,22 @@ const Section4 = () => {
                 {/* Box 2 */}
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative ">
                     <img
-                        src="../../public/Gabrun-Minutes-BG 1.png"
+                        src={Gabrun}
                         alt="Logo"
                         className="h-[100px] sm:h-[100px] md:h-[120px] lg:h-[150px] absolute right-0 top-0 object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 10.png"
+                        src={Group10}
                         alt="Logo"
                         className="h-[160px] sm:h-[160px] md:h-[200px] lg:h-[280px] absolute left-5 top-16   object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 8.png"
+                        src={Group9}
                         alt="Logo"
                         className="h-[200px] sm:h-[200px] md:h-[250px] lg:h-[350px]  absolute z-50 top-8 object-contain gap-0 "
                     />
                     <img
-                        src="../../public/Group 9.png"
+                        src={Group8}
                         alt="Logo"
                         className="h-[160px] sm:h-[160px] md:h-[200px] lg:h-[280px] absolute right-5 top-16  object-contain gap-0  z-30"
                     />
@@ -68,28 +83,28 @@ const Section4 = () => {
 
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
                     <img
-                        src="../../public/Gabrun-Minutes-BG 1.png"
+                        src={Gabrun}
                         alt="Logo"
                         className=" h-[150px] absolute left-0 top-0 object-contain gap-0  z-30"
                     />
 
                     <img
-                        src="../../public/Group 13.png"
+                        src={Group13}
                         alt="Logo"
                         className="w-[430px] absolute top-14  object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 12.png"
+                        src={Group12}
                         alt="Logo"
                         className="w-[400px]  absolute   object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 11.png"
+                        src={Group11}
                         alt="Logo"
                         className="w-[370px]  absolute bottom-14  object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/solar_magnifer-outline.png"
+                        src={solar}
                         alt="Logo"
                         className="  absolute right-5 bottom-5  object-contain gap-0  z-10"
                     />
@@ -115,7 +130,7 @@ const Section4 = () => {
                 </div>
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
                     <img
-                        src="../../public/Gabrun-Minutes-BG 1.png"
+                        src={Gabrun}
                         alt="Logo"
                         className=" h-[150px] absolute right-0 top-0 object-contain gap-0  z-30"
                     />
@@ -177,17 +192,18 @@ const Section4 = () => {
 
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
                     <img
-                        src="../../public/Gabrun-Minutes-BG 1.png"
+                        src={Gabrun}
                         alt="Logo"
                         className=" h-[150px] absolute left-0 top-0 object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/image.png"
+                        src={image }
+                        
                         alt="Logo"
                         className=" z-40 h-[200px] lg:h-[300px]  absolute right-10 lg:right-20  object-contain gap-0 "
                     />
                     <img
-                        src="../../public/Group 15.png"
+                        src={Group15}
                         alt="Logo"
                         className="h-[150px] lg:h-[300px] absolute z-50 right-[-20px] top-16"
                     />
@@ -215,22 +231,22 @@ const Section4 = () => {
 
                 <div className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] lg:w-[480px] lg:h-[380px]  border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
                     <img
-                        src="../../public/Gabrun-Minutes-BG 1.png"
+                        src={Gabrun}
                         alt="Logo"
                         className=" h-[150px] absolute right-0 top-0 object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 16.png"
+                        src={Group16}
                         alt="Logo"
                         className=" absolute top-14  object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 17.png"
+                        src={Group17}
                         alt="Logo"
                         className=" absolute  top-36 object-contain gap-0  z-30"
                     />
                     <img
-                        src="../../public/Group 18.png"
+                        src={Group18}
                         alt="Logo"
                         className="absolute top-56     object-contain gap-0  z-30"
                     />

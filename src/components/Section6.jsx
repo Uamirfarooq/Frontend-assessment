@@ -1,6 +1,7 @@
 import React from 'react';
 import SubSection6 from './SubSection6';
 import Button from '@mui/material/Button';
+import Gabrun from "../assets/About-Us-Hero-BG-2 1.png";
 
 const Section6 = () => {
     return (
@@ -8,7 +9,7 @@ const Section6 = () => {
             {/* Hero Image Section */}
             <div className="flex items-center justify-center absolute  flex-col  w-full top-0 mx-auto">
                 <img
-                    src="../../public/About-Us-Hero-BG-2 1.png"
+                    src={Gabrun}
                     alt="Hero Background"
                     className="w-full h-auto bg-gradient-to-t from-white to-blue-50"
                 />

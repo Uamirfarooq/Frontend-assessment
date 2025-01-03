@@ -1,6 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import Marquee from "react-fast-marquee";
+import Group23 from "../assets/Group 23.png";
+import Group5 from "../assets/Group 5.png";
 
 // Import assets or use direct paths if they're in the public folder
 import intys from "../assets/intys.png";
@@ -58,12 +60,12 @@ const TrustedBySection = () => {
       {/* Features Section */}
       <div className="text-center relative mt-8 px-4">
         <img
-          src="../../public/Group 23.png"
+          src={Group23}
           alt="Logo"
           className="w-[30px] md:w-[43px] h-auto absolute left-28 top-64 gap-0 border-t border-opacity-30"
         />
         <img
-          src="../../public/Group 5.png"
+          src={Group5}
           alt="Logo"
           className="w-[30px] md:w-[43px] h-auto absolute right-28 top-40 gap-0 border-t border-opacity-30"
         />

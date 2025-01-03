@@ -1,16 +1,19 @@
 import React from "react";
 import { Grid, Box, Typography } from "@mui/material";
+import Gabrun1 from "../assets/Gabrun-Hero-BG-5 1.png";
+import Gabrun2 from "../assets/Gabrun-Hero-BG-5 2.png";
+
 const Section5 = () => {
     return (
         <>
             <div className="bg-[#0B1928] p-4 md:p-2 overflow-hidden relative ">
                 <img
-                    src="../../public/Gabrun-Hero-BG-5 1.png"
+                    src={Gabrun1}
                     alt="Logo"
                     className=" absolute  left-0 top-10 object-cover gap-0 "
                 />
                 <img
-                    src="../../public/Gabrun-Hero-BG-5 2.png"
+                    src={Gabrun2}
                     alt="Logo"
                     className=" absolute right-0 top-10  object-cover gap-0 "
                 />
