@@ -69,12 +69,12 @@ const Section4 = () => {
                         className="h-[160px] sm:h-[160px] md:h-[200px] lg:h-[280px] absolute left-5 top-16   object-contain gap-0  z-30"
                     />
                     <img
-                        src={Group9}
+                        src={Group8}
                         alt="Logo"
                         className="h-[200px] sm:h-[200px] md:h-[250px] lg:h-[350px]  absolute z-50 top-8 object-contain gap-0 "
                     />
                     <img
-                        src={Group8}
+                        src={Group9}
                         alt="Logo"
                         className="h-[160px] sm:h-[160px] md:h-[200px] lg:h-[280px] absolute right-5 top-16  object-contain gap-0  z-30"
                     />
