@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import image1 from "../assets/docker-pattern-right 3.png";
 import image2 from "../assets/docker-pattern-right 4.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import Vector from "../assets/Vector.png";
 import Vector1 from "../assets/Vector 1.png";
 import Vector2 from "../assets/Vector w.png";
