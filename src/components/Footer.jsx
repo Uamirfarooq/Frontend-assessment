@@ -1,12 +1,17 @@
 import React from 'react'
+import logo from "../assets/Logo.jpg";
+import X from "../assets/ant-design_x-outlined.png";
+import instagram from "../assets/fa6-brands_instagram.png";
+import facebook from "../assets/iconoir_facebook.png";
+import Linkedin from "../assets/basil_linkedin-outline.png";
 
 const Footer = () => {
     const imagePaths = [
-  "../public/Logo.jpg",
-  "../public/ant-design_x-outlined.png",
-  "../public/fa6-brands_instagram.png",
-  "../public/iconoir_facebook.png",
-  "../public/basil_linkedin-outline.png"
+  logo,
+  X,
+  instagram,
+  facebook,
+  Linkedin
 ];
     return (
         <footer className='py-4' style={{ backgroundColor: '#848EA00D' }}>
